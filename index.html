@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+типа сайт
+<script>
+    const ws = new WebSocket("ws://localhost:8082");
+
+    ws.onopen = () => {
+        console.log("мы подключены");
+    };
+</script>
+</body>
